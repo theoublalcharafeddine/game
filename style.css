@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(219, 218, 216);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: fixed;
+    z-index: 999;
+    background-color:rgb(219, 218, 216) ;
+    width: 100%;
+
+}
+
+.logo {
+    color: rgb(29, 28, 28);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+nav h2 span {
+    color: rgb(101, 86, 86);
+}
+
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul li a:hover {
+    color: rgb(97, 94, 94);
+    transition: .4s;
+
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+}
+
+.content p span {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 30px;
+}
+
+.btn {
+
+    background-color: rgb(123, 68, 68);
+    color: white;
+    text-decoration: none;
+    border: solid 2px transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+
+}
+
+.btn:hover {
+
+    color: rgb(209, 192, 192);
+    transition: .4s;
+}
+
+.MMA {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(18, 17, 17);
+}
+
+.MMA img {
+    height: 500px;
+    width: 430px;
+    border-radius: 10px;
+}
+
+.text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 25px;
+
+}
+
+/* floter start*/
+
+
+.best_mma {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.best_mma1 {
+
+    padding-top: 10px;
+
+}
+
+.best_mma p {
+    font-size: 25px;
+}
+
+.best_mma img {
+    margin-left: 40px;
+}
+
+.khbib {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.best_mma2 {
+
+    padding-top: 10px;
+}
+
+.usman {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.best_mma3 {
+
+    padding-top: 10px;
+}
+
+.jon {
+    width: 100px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+
+/* boxing start */
+
+.Boxing {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(18, 17, 17);
+}
+
+.Boxing img {
+    height: 600px;
+    width: 530px;
+    border-radius: 10px;
+}
+
+.text2 {
+    width: 550px;
+}
+
+.mian {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text2 h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text2 p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 25px;
+
+}
+
+/* floter */
+
+.best_boxing {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.best_boxing1 {
+
+    padding-top: 10px;
+
+}
+
+.best_boxing p {
+    font-size: 25px;
+}
+
+.best_boxing img {
+    margin-left: 40px;
+}
+
+.manny {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.best_boxing2 {
+
+    padding-top: 10px;
+}
+
+.ali {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.best_boxing3 {
+
+    padding-top: 10px;
+}
+
+.floyd {
+    width: 100px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+/* start kickboxin */
+
+
+.kickboxing{
+    width: 100%;
+    padding:100px 0px;
+    background-color: rgb(18, 17, 17) ;
+}
+.kickboxing img{
+    height: 600px;
+    width: 530px;
+    border-radius: 10px;
+}
+
+/* end of kickboxing */
+
+.best_kickboxing {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.best_kickboxing1 {
+
+    padding-top: 10px;
+
+}
+
+.best_kickboxing p {
+    font-size: 25px;
+}
+
+.best_kickboxing img {
+    margin-left: 40px;
+}
+
+.Badr {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.best_kickboxing2 {
+
+    padding-top: 10px;
+}
+
+.alex {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.best_kickboxing3 {
+
+    padding-top: 10px;
+}
+
+.rico{
+    width: 100px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.end{
+    position: absolute;
+    margin-left: 40%;
+    font-size: 20px;
+    color: rgb(66, 45, 45);
+
+}
+.end span{
+    font-size: x-large;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width:1052px){
+    .home{
+        background-size: 30%;
+    } 
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: initial;
+        padding-top: 10px;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: fixed;
+        z-index: 999;
+        background-color:rgb(219, 218, 216) ;
+        width: 100%;
+    
+    }
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: small;
+        text-transform: lowercase;
+    
+    }
+    .content {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    
+    }
+    
+    .content p span {
+        font-size: 20px;
+    }
+    
+    .content p {
+        font-size: 15px;
+    }
+    
+}
