@@ -1,1 +1,1 @@
-the game academy AKA
+the gym academy AKA
